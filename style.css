@@ -1,0 +1,94 @@
+
+body{
+  background: rgb(240,240,240);
+  color: rgb(30,30,30);
+  font-size: 18px;
+  font-family: Lato, sans-serif;
+  margin: 0px;
+  font-weight: lighter;
+}
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #6A71E1;
+}
+a {
+  color: #6A71E1;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+
+.banner{
+  text-align: center;
+  color: white;
+  padding: 180px 0px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/banner_background.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.banner h1 {
+  font-size: 50px;
+  padding: 10px;
+
+    
+  
+}
+.banner p {
+  font-size: 30px;
+  font-weight: normal;
+  padding: 10px;
+  
+  
+
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.card-contact {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+.card-contact h2 { 
+  font-weight: bold;
+  font-size: 30px;
+  color: #6A71E1;
+ }
+
+.card-contact p { 
+  font-size: 20px;
+  padding: 10px; 
+}
+
+.btn-blue {
+  color: white;
+  background: #6772e5;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  padding: 10px;
+}
+.btn-blue:hover {
+  background: #292d5b;
+  color: white;
+}
